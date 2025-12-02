@@ -1,0 +1,567 @@
+[24-11-25 09:53:08,962 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:53:38,962 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:54:08,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:54:08,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:54:08,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:54:08,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:54:08,963 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:54:08,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:54:08,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:54:38,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:54:38,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:54:38,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:54:38,963 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:54:38,963 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:54:38,964 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:54:38,964 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:55:08,964 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:55:08,964 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:55:08,964 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:55:08,964 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:55:08,964 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:55:08,964 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:55:08,964 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:55:38,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:55:38,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:55:38,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:55:38,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:55:38,965 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:55:38,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:55:38,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:56:08,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:56:08,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:56:08,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:56:08,965 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:56:08,965 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:56:08,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:56:08,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:56:38,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:56:38,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:56:38,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:56:38,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:56:38,966 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:56:38,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:56:38,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:57:08,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:57:08,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:57:08,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:57:08,966 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:57:08,967 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:57:08,967 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:57:08,967 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:57:38,967 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:57:38,967 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:57:38,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:57:38,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:57:38,968 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:57:38,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:57:38,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:58:08,967 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:58:08,967 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:58:08,967 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:58:08,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:58:08,968 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:58:08,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:58:08,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:58:38,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:58:38,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:58:38,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:58:38,968 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:58:38,968 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:58:38,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:58:38,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:59:08,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:59:08,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:59:08,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:59:08,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:59:08,969 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:59:08,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:59:08,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 09:59:38,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 09:59:38,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 09:59:38,969 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:59:38,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 09:59:38,970 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 09:59:38,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 09:59:38,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:00:08,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:00:08,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:00:08,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:00:08,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:00:08,970 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:00:08,971 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:00:08,971 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:00:38,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:00:38,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:00:38,970 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:00:38,971 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:00:38,971 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:00:38,971 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:00:38,971 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:01:08,971 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:01:08,971 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:01:08,971 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:01:08,971 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:01:08,972 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:01:08,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:01:08,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:01:38,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:01:38,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:01:38,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:01:38,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:01:38,972 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:01:38,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:01:38,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:02:08,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:02:08,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:02:08,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:02:08,972 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:02:08,972 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:02:08,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:02:08,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:02:38,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:02:38,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:02:38,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:02:38,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:02:38,973 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:02:38,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:02:38,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:03:08,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:03:08,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:03:08,973 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:03:08,974 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:03:08,974 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:03:08,974 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:03:08,974 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:03:38,974 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:03:38,974 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:03:38,974 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:03:38,974 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:03:38,974 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:03:38,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:03:38,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:04:08,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:04:08,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:04:08,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:04:08,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:04:08,975 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:04:08,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:04:08,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:04:38,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:04:38,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:04:38,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:04:38,975 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:04:38,976 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:04:38,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:04:38,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:05:08,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:05:08,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:05:08,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:05:08,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:05:08,976 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:05:08,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:05:08,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:05:38,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:05:38,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:05:38,976 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:05:38,977 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:05:38,977 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:05:38,977 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:05:38,977 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:06:08,977 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:06:08,977 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:06:08,977 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:06:08,977 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:06:08,978 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:06:08,978 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:06:08,978 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:06:38,978 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Trying to connect to router.
+[24-11-25 10:06:38,978 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Request to connect to router.
+[24-11-25 10:06:38,978 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:06:38,978 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] CONNECTION EXCEPTION :: Connection Error occurred while connecting to Router at ---->192.168.199.61:6500
+[24-11-25 10:06:38,978 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:06:38,978 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:228)
+	at com.iflex.reveleus.execution.service.Reader.connectToRouter(Reader.java:335)
+	at com.iflex.reveleus.execution.service.Reader.reconnect(Reader.java:256)
+	at com.iflex.reveleus.execution.service.Reader.run(Reader.java:148)
+
+[24-11-25 10:06:38,978 GMT AM] [DEBUG] [APP]  [ESPLOG]  [NA] [READER] Sleeping before retrying connecting to router.
+[24-11-25 10:08:28,172 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:08:58,172 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:09:28,173 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[24-11-25 10:09:58,173 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[25-11-25 09:51:10,575 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:21:31,437 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:22:01,437 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:22:31,437 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:23:01,438 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:23:31,438 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:24:01,439 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:24:31,440 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:25:01,440 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:25:31,441 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[26-11-25 05:26:01,441 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[01-12-25 06:37:29,824 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[01-12-25 06:37:59,825 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[01-12-25 06:38:29,825 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
+[01-12-25 06:38:59,826 GMT AM] [ERROR] [APP]  [ESPLOG]  [NA] [READER] Error connecting to router
