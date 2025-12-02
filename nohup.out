@@ -1,0 +1,99 @@
+FIC_SERVER_HOME=/u01/app/oracle/ofsaa/ofsaaapp/ficapp/common/FICServer
+FIC_HOME=/u01/app/oracle/ofsaa/ofsaaapp
+#Comparing---DAPPINST99996666---DAPPINST99996666
+Sending shutdown signal to :192.168.199.61:9999.....
+Signal sent successfully
+FIC_SERVER_HOME=/u01/app/oracle/ofsaa/ofsaaapp/ficapp/common/FICServer
+FIC_HOME=/u01/app/oracle/ofsaa/ofsaaapp
+#Comparing---DAPPINST99996666---DAPPINST99996666
+Sending shutdown signal to :192.168.199.61:9999.....
+FIC_SERVER_HOME=/u01/app/oracle/ofsaa/ofsaaapp/ficapp/common/FICServer
+FIC_HOME=/u01/app/oracle/ofsaa/ofsaaapp
+Starting Reveleus Server
+Starting Reveleus Server
+FIC_HOME:/u01/app/oracle/ofsaa/ofsaaapp/
+starting FICServer
+Result of Config File Read operation 0
+#read ip port with :DAPPINST99996666
+#Comparing---DAPPINST99996666---DAPPINST99996666
+DEFAULTLOGGER:DEFAULTLOG DEFAULTLOGLEVEL:0
+GlobalParameters.ISWEB == false
+ LogConstants.log4jInited = true
+#Comparing---DAPPINST99996666---DAPPINST99996666
+Validating Connection details .. 
+Validating Connection details .. 
+Configuring log from: /u01/app/oracle/ofsaa/ofsaaapp/ficapp/common/FICServer/conf/log4j.conf.properties
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:513)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at com.iflex.fic.ficserver.ServerConnectionManager.run(ServerConnectionManager.java:158)
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:513)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at com.iflex.fic.ficserver.ServerConnectionManager.run(ServerConnectionManager.java:158)
+FICServer Initialization Complete
+./startofsaai.sh: line 87: 817565 Killed                  $JAVA_BIN/java -server $X_ARGS_APP $D_ARGS $X_ARGS_GEN -classpath $_CLASSPATH $MAIN_JAVA_CLASS $@
+Error in sending the shutdown signal :java.lang.NullPointerException
+FIC_SERVER_HOME=/u01/app/oracle/ofsaa/ofsaaapp/ficapp/common/FICServer
+FIC_HOME=/u01/app/oracle/ofsaa/ofsaaapp
+Starting Reveleus Server
+Starting Reveleus Server
+FIC_HOME:/u01/app/oracle/ofsaa/ofsaaapp/
+starting FICServer
+Result of Config File Read operation 0
+#read ip port with :DAPPINST99996666
+#Comparing---DAPPINST99996666---DAPPINST99996666
+DEFAULTLOGGER:DEFAULTLOG DEFAULTLOGLEVEL:0
+GlobalParameters.ISWEB == false
+ LogConstants.log4jInited = true
+#Comparing---DAPPINST99996666---DAPPINST99996666
+Validating Connection details .. 
+Validating Connection details .. 
+Configuring log from: /u01/app/oracle/ofsaa/ofsaaapp/ficapp/common/FICServer/conf/log4j.conf.properties
+Binding Native Connections to : 192.168.199.61:6666
+Binding Java Connections to : 192.168.199.61:9999
+FICServer Initialization Complete
+SHUTTING DOWN
+Shutting down.....
+Shutting java.....
+Shutting native.....
+Both Done
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:535)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at com.iflex.fic.ficserver.ServerConnectionManager.run(ServerConnectionManager.java:196)
+java.net.SocketException: Socket closed
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:535)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at com.iflex.fic.ficserver.ServerConnectionManager.run(ServerConnectionManager.java:196)
+[Message Logger] Shutdown Successful
+[Message Logger] Shutdown Successful
+FIC_SERVER_HOME=/u01/app/oracle/ofsaa/ofsaaapp/ficapp/common/FICServer
+FIC_HOME=/u01/app/oracle/ofsaa/ofsaaapp
+Starting Reveleus Server
+Starting Reveleus Server
+FIC_HOME:/u01/app/oracle/ofsaa/ofsaaapp/
+starting FICServer
+Result of Config File Read operation 0
+#read ip port with :DAPPINST99996666
+#Comparing---DAPPINST99996666---DAPPINST99996666
+DEFAULTLOGGER:DEFAULTLOG DEFAULTLOGLEVEL:0
+GlobalParameters.ISWEB == false
+ LogConstants.log4jInited = true
+#Comparing---DAPPINST99996666---DAPPINST99996666
+Validating Connection details .. 
+Validating Connection details .. 
+Configuring log from: /u01/app/oracle/ofsaa/ofsaaapp/ficapp/common/FICServer/conf/log4j.conf.properties
+Binding Java Connections to : 192.168.199.61:9999
+Binding Native Connections to : 192.168.199.61:6666
+FICServer Initialization Complete
